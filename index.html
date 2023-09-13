@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layout">
+                <h1>Seja bem-vindo</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Crie sua conta</h2>
+            <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+            <div class="form-control">
+               <label for="name">Nome</label> 
+               <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail</label> 
+                <input type="text" name="email" id="email" placeholder="Digite seu email">
+             </div>
+
+             <p>
+                Quer ajuda para gerar senha segura?
+                    <span id="generate-password">
+                        clique aqui!
+                    </span>
+             </p>
+
+             <div id="generated-password">
+                <p>Aqui está a sua senha:</p>
+                <h4></h4>
+              </div>
+
+             <div class="form-control">
+                <label for="confirmpassword">Confirma senha</label> 
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme sua senha">
+             </div>
+            <input type="submit" value="cadastrar"/>
+        </div>
+    </div>
+</body>
+</html>
