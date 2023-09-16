@@ -29,7 +29,7 @@
 
              <p>
                 Quer ajuda para gerar senha segura?
-                    <span id="generate-password">
+                    <span id="open-generate-password">
                         clique aqui!
                     </span>
              </p>
@@ -37,6 +37,27 @@
              <div id="generated-password">
                 <p>Aqui está a sua senha:</p>
                 <h4></h4>
+                <button id="copy-password">Copiar</button>
+              </div>
+              <div id="generate-options">
+                <p>selecione as opções que você deseja:</p>
+                <div class="form-control">
+                    <label for="length">Quantidade de caracteres</label>
+                    <input name="length" value="10" type="text" id="length" />
+                </div>
+                <div class="form-control">
+                    <label for="letters">Letras:</label>
+                    <input name="letters" type="checkbox" id="letters" checked />
+                </div>
+                <div class="form-control">
+                    <label for="symbols">Símbolos:</label>
+                    <input name="symbols" type="checkbox" id="symbols" />
+                </div>
+                <div class="form-control">
+                    <label for="numbers">Números</label>
+                    <input name="numbers" type="checkbox" id="numbers" />
+                </div>
+                <button id="generate-password">Criar senha</button>
               </div>
 
              <div class="form-control">
